@@ -12,6 +12,7 @@ Project pom.xml
 
 The project adds a <plugin> to configure thorntail-maven-plugin to create the runnable .jar.
 
+```xml
 <plugin>
 	<groupId>io.thorntail</groupId>
     <artifactId>thorntail-maven-plugin</artifactId>
@@ -24,6 +25,7 @@ The project adds a <plugin> to configure thorntail-maven-plugin to create the ru
         </execution>
     </executions>
 </plugin>
+```
 
 We let the plugin define the parts of Thorntail that we need based on the APIs our code uses, so we don't need to define any dependencies explicitly.
 Run
