@@ -14,7 +14,7 @@ The project adds a <plugin> to configure thorntail-maven-plugin to create the ru
 
 ```xml
 <plugin>
-	<groupId>io.thorntail</groupId>
+    <groupId>io.thorntail</groupId>
     <artifactId>thorntail-maven-plugin</artifactId>
     <version>${version.thorntail}</version>
     <executions>
