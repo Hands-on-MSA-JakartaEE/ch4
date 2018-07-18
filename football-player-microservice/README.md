@@ -1,4 +1,4 @@
-JPA, JAX-RS and CDI .war Example of Microservice application
+# JPA, JAX-RS and CDI .war Example of Microservice application
 
 This example takes a normal JPA, CDI and JAX-RS build, and wraps it into a -swarm runnable jar.
 
