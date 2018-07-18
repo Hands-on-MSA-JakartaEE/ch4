@@ -4,8 +4,9 @@ This example takes a normal JPA, CDI and JAX-RS build, and wraps it into a -swar
 
 It uses a PostgreSQL database. In order to run the project you need to install PostgreSQL docker image using the following command:
 
+```console
 $ docker run --name postgres_thorntail  -e POSTGRES_PASSWORD=postgresPwd -e POSTGRES_DB=football_players_registry -d -p 5532:5432 postgres
-
+```
 
 Project pom.xml
 
@@ -32,8 +33,10 @@ Run
 
 You can run it many ways:
 
-    mvn package && java -jar target/football-player-microservice-thorntail.jar
-    mvn thorntail:run
+```console
+    $ mvn package && java -jar target/football-player-microservice-thorntail.jar
+    $ mvn thorntail:run
+```
 
 Use
 
