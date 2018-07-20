@@ -1,6 +1,6 @@
-# JPA, JAX-RS and CDI .war Example of Microservice application
+# JPA, JAX-RS, CDI and JTA .war Example of Microservice application
 
-This example takes a normal JPA, CDI and JAX-RS build, and wraps it into a -swarm runnable jar.
+This example takes a normal JPA, CDI, JAX-RS and JTA build, and wraps it into a -swarm runnable jar.
 
 It uses a PostgreSQL database. In order to run the project you need to install PostgreSQL docker image using the following command:
 

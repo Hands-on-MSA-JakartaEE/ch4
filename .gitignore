@@ -29,3 +29,5 @@ football-player-microservice/target/surefire-reports/TEST-com.packtpub.thorntail
 football-player-microservice/target/test-classes/com/packtpub/thorntail/footballplayermicroservice/rest/service/FootballPlayerFacadeRESTTest$GenericTypeFootballPlayerImpl.class
 football-player-microservice/target/test-classes/com/packtpub/thorntail/footballplayermicroservice/rest/service/FootballPlayerFacadeRESTTest$GenericTypeFootballPlayerListImpl.class
 football-player-microservice/target/test-classes/com/packtpub/thorntail/footballplayermicroservice/rest/service/FootballPlayerFacadeRESTTest.class
+/football-manager-microservice/target/
+/football-manager-microservice/nbproject/
