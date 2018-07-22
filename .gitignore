@@ -31,3 +31,5 @@ football-player-microservice/target/test-classes/com/packtpub/thorntail/football
 football-player-microservice/target/test-classes/com/packtpub/thorntail/footballplayermicroservice/rest/service/FootballPlayerFacadeRESTTest.class
 /football-manager-microservice/target/
 /football-manager-microservice/nbproject/
+/football-team-microservice/target/
+/football-team-microservice/nbproject/
