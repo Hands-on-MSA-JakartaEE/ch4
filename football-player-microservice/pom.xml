@@ -87,5 +87,12 @@
             <version>${version.resteasy}</version>
             <scope>test</scope>
         </dependency>
+        <!-- CORS Support For JAX-RS 2.0 / JavaEE 7  -->
+        <dependency>
+            <groupId>com.airhacks</groupId>
+            <artifactId>jaxrs-cors</artifactId>
+            <version>0.0.2</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>
