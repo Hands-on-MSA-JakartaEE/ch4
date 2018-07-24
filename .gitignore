@@ -35,3 +35,5 @@ football-player-microservice/target/test-classes/com/packtpub/thorntail/football
 /football-team-microservice/nbproject/
 /football-player-ui/nbproject/
 /football-manager-ui/nbproject/private/
+football-manager-ui/nbproject/project.properties
+football-manager-ui/nbproject/project.xml
