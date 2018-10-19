@@ -5,7 +5,7 @@ This example takes a normal JPA, CDI, JAX-RS and JTA build, and wraps it into a 
 It uses a MySQL database. In order to run the project you need to install MySQL docker image using the following command:
 
 ```console
-$ docker run --name mysql_thorntail -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -d mysql --default-authentication-plugin=mysql_native_password
+$ docker run --name mysql_thorntail -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=football_managers_registry -d mysql --default-authentication-plugin=mysql_native_password
 ```
 
 Project pom.xml
