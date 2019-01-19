@@ -29,9 +29,7 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "FootballPlayer.findAll", query
             = "SELECT f FROM FootballPlayer f")
     })
-public class FootballPlayer implements Serializable {
-
-    private static final long serialVersionUID = -92346781936044228L;
+public class FootballPlayer {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
