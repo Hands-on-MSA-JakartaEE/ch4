@@ -1,6 +1,5 @@
 package com.packtpub.thorntail.footballplayermicroservice.model;
 
-import java.io.Serializable;
 import java.math.BigInteger;
 import javax.persistence.Basic;
 import javax.persistence.Column;
